@@ -63,7 +63,8 @@ class AnimalAIEnv(gym.Env):
         self._current_state = None
         self._n_agents = None
         self._flattener = None
-        self._greyscale = greyscale or retro
+        #self._greyscale = greyscale or retro
+        self._greyscale = greyscale 
         # self._seed = None
         self.retro = retro
         self.game_over = False  # Hidden flag used by Atari environments to determine if the game is over
