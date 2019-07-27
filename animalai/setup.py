@@ -20,7 +20,8 @@ setup(
 
     install_requires=[
         'Pillow>=4.2.1,<=5.4.1',
-        'numpy>=1.13.3,<=1.14.5',
+        #'numpy>=1.13.3,<=1.14.5',
+        'numpy>=1.13.3',
         'protobuf>=3.6,<3.7',
         'grpcio>=1.11.0,<1.12.0',
         'pyyaml>=5.1',
